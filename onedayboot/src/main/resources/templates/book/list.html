@@ -1,0 +1,50 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>책 상세</title>
+<script>
+    document.getElementById("searchForm").addEventListener("submit", function(event) {
+        var selectedPageSize = document.getElementById("pageSizeSelect").value;
+       
+        var pageSizeInput = document.createElement("input");
+        pageSizeInput.setAttribute("type", "hidden");
+        pageSizeInput.setAttribute("name", "pageSize");
+        pageSizeInput.setAttribute("value", selectedPageSize);
+        this.appendChild(pageSizeInput);
+        
+        this.submit();
+        
+        event.preventDefault(); 
+    });
+</script>
+
+
+</head>
+<body>
+	<h1>책 목록</h1>
+	<form id="searchForm"  th:action="@{/book/list}">
+	<input type="search" size="10"  name="title"  placeholder="검색 제목 입력">
+	<input type="submit"  value="검색">
+	<select id="pageSizeSelect" name="pageSize" >
+	        <option value="5">5개씩 보기</option>
+	        <option value="10">10개씩 보기</option>
+	        <option value="15">15개씩 보기</option>
+	        <option value="20">20개씩 보기</option>
+	    </select>
+	</form>
+	<table>
+		<tr>
+			<th>책 번호</th>
+			<th>책 제목</th>
+		</tr>
+		<tr th:each="book : ${books}">
+			<td th:text="${book.bookId}"></td>
+			<td><a th:href="@{/book/read/{id}(id=${book.bookId})}" th:text="${book.title}"/></td>
+		</tr>
+	</table>
+	<div>
+		<a th:href="@{/book/create}">책 추가</a>
+	</div>
+	
+
+</body>
+</html>

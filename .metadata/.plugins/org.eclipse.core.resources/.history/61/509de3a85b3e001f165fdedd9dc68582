@@ -1,0 +1,13 @@
+package com.intrabucks.approval.service;
+
+import com.intrabucks.approval.data.dto.reactdto.ApprovalDocument_ApprovalDocumentDTO;
+
+public class Approval2ServiceImpl implements Approval2Service {
+
+	@Override
+	public void saveApprovalUser(ApprovalDocument_ApprovalDocumentDTO approvalDocumentDTO) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

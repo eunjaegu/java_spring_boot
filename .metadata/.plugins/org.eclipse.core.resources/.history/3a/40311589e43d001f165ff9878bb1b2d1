@@ -1,0 +1,9 @@
+package com.intrabucks.approval.data.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.intrabucks.entity.ApprovalDocument;
+
+public class Approval1DocumentRepository extends JpaRepository<ApprovalDocument, Long>{
+
+}

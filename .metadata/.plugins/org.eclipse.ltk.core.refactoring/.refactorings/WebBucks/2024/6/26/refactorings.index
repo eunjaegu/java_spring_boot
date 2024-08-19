@@ -1,0 +1,49 @@
+1719383833178	Rename package 'com.webbucks.admin.controller'
+1719384175230	Rename type 'PointsService'
+1719384309978	Rename type 'CustomerEntity'
+1719384314547	Rename type 'ManagersEntity'
+1719384318269	Rename type 'MenuEntity'
+1719384322265	Rename type 'SalesEntity'
+1719384326714	Rename type 'OrdersEntity'
+1719384330545	Rename type 'OrederStateEntity'
+1719384334464	Rename type 'PointsEntity'
+1719384337858	Rename type 'StoresEntity'
+1719384364422	Rename type 'Orders'
+1719384368652	Rename type 'Points'
+1719384379606	Rename type 'Order'
+1719384383278	Rename type 'Point'
+1719384575718	Rename type 'Managers'
+1719384582041	Rename type 'Orders'
+1719384586053	Rename type 'Points'
+1719384591662	Rename type 'Stores'
+1719384622998	Rename type 'Sales'
+1719386575146	Rename compilation unit 'OrederState.java'
+1719389791758	Delete element
+1719389958492	Rename package 'com.webbucks.admin.Entity'
+1719389965000	Rename package 'com.webbucks.customer.Entity'
+1719390028272	Move compilation units
+1719390036184	Delete element
+1719390053538	Move compilation units
+1719390092409	Delete element
+1719390133882	Delete element
+1719390136839	Delete element
+1719390196151	Rename type 'Controller'
+1719392048018	Rename type 'Order'
+1719392152571	Rename type 'OrderState'
+1719392809908	Rename type 'BOrder'
+1719392819343	Rename type 'BOrderState'
+1719402476932	Rename type 'ManagersRepository'
+1719467568886	Rename type 'Sale'
+1719467573925	Rename type 'SaleS'
+1719474286988	Delete element
+1719474304570	Delete element
+1719474317521	Delete element
+1719474412234	Move compilation unit
+1719474415829	Move compilation unit
+1719474851656	Move compilation units
+1719474856598	Move compilation units
+1719474860318	Delete element
+1719474863628	Delete element
+1719477867300	Copy file
+1719478954073	Copy file
+1719557848432	Delete element

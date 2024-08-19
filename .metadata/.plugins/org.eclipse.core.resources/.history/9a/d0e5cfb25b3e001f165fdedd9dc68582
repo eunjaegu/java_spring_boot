@@ -1,0 +1,5 @@
+package com.intrabucks.approval.service;
+
+public interface Approval2Service {
+
+}

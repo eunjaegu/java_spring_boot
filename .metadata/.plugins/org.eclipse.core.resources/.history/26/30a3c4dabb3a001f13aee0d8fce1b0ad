@@ -1,0 +1,59 @@
+package com.intrabucks.approval.data.reactdto;
+
+import com.intrabucks.entity.Employee;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * 결재라인 DTO:  기안자 및 결재자1, 2, 3
+ * @author 구은재
+ * @version 1.0 
+ * 2024-06-30
+**/
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Approval1_Approval1DTO {
+
+	private ApprovalDTO[] approvals; // 선택된 직원들의 결재 정보 배열
+	
+//	private Employee  empId1; //결재자 직원Id
+//    private String approvalState1;//결재 or 기안
+//    
+//    private Employee empId2; //결재자 직원Id
+//    private String approvalState2;	//결재 or 기안
+//    
+//    private Employee empId3; //결재자 직원Id
+//    private String approvalState3;	//결재 or 기안
+//    
+//    private Employee empId4; //결재자 직원Id
+//    private String approvalState4;	//결재 or 기안
+	
+	private Employee employee; // 결재자 직원 정보
+    private String approvalState; // 결재 상태
+
+    // Getter 메서드
+    public String getApprovalState() {
+        return approvalState;
+    }
+
+    // Setter 메서드 (선택적)
+    public void setApprovalState(String approvalState) {
+        this.approvalState = approvalState;
+    }
+
+    // 나머지 필드에 대한 Getter와 Setter 메서드 추가 가능
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
+    }
+    
+}

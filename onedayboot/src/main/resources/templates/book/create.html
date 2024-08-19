@@ -1,0 +1,33 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>책 생성하기</title>
+</head>
+<body>
+	<h1>책 생성하기</h1>
+	<form method="POST" onsubmit="return(test());">
+		<p>
+			제목 : <input type="text" id="name" name="title" required />
+		</p>
+		<p>
+			가격 : <input type="text" name="price" />
+		</p>
+		<p>
+			<input type="submit" value="저장" />
+			<button type="button" th:onclick="window.location.href='/book/list'">목록으로가기</button>
+		</p>
+	</form>
+	
+	<script>
+		function test(){
+			var _test = true;
+			const name = document.getElementById('name').value;
+			if(name.trim() == ""){
+				alert("제목을 입력하세요");
+				return false;
+			}
+			name = name.trim();
+			return _test;
+		}
+	</script>
+</body>
+</html>

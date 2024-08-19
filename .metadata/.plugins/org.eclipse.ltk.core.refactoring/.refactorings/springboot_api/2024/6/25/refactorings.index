@@ -1,0 +1,14 @@
+1718586150206	Rename package 'com.ej'
+1718586708165	Rename package 'com.ej.api.contorller'
+1718587253774	Rename type 'TransactionService'
+1718589430410	Rename resource 'card.csv'
+1718589802177	Rename resource 'card'
+1718600341178	Move 'card.csv' to 'static'
+1718600427580	Delete element
+1718601874457	Delete element
+1718608291797	Move 'cards.csv' to 'data'
+1718609456391	Delete element
+1718882058675	Rename package 'com.ej.api.model'
+1718884940174	Rename resource 'data'
+1718885220566	Delete element
+1718968859540	Delete element

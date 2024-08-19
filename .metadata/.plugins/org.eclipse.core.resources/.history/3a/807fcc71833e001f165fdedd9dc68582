@@ -1,0 +1,5 @@
+package com.intrabucks.board.data.dto.reactdto.dto;
+
+public class BoardFile_BoardDTO {
+
+}
